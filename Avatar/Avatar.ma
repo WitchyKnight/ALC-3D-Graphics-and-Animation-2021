@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Avatar.ma
-//Last modified: Thu, Nov 19, 2020 09:56:01 AM
+//Last modified: Thu, Nov 19, 2020 10:03:11 AM
 //Codeset: UTF-8
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -6388,7 +6388,7 @@ createNode mesh -n "polySurfaceShape10" -p "polySurface9";
 	setAttr -s 2 ".iog[0].og";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5729166567325592 0.54746237397193909 ;
+	setAttr ".pv" -type "double2" 0.5520833432674408 0.42824174463748932 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
@@ -6492,7 +6492,7 @@ createNode mesh -n "polySurfaceShape9" -p "polySurface8";
 	setAttr -av ".iog[0].og[0].gco";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.6041666567325592 0.64144736528396606 ;
+	setAttr ".pv" -type "double2" 0.49999997019767761 0.43622945249080658 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
@@ -6517,9 +6517,9 @@ createNode mesh -n "polySurfaceShape9" -p "polySurface8";
 		-0.016685082 0.01937745 0.032903433 -0.016685082 0.01937745 0.032903433 -0.016685082 
 		0.01937745 0.032903433 -0.016685082 0.01937745 0.032903433 -0.016685082 0.01937745 
 		0.032903433 -0.016685082 0.01937745 0.032903433 -0.016685082 0.01937745 0.032903433 
-		-0.016685082 0.01937745 0.032903433 -0.016685082 0.01937745 0.032903433 -0.016685082 
-		0.01937745 0.032903433 -0.016685082 0.01937745 0.032903433 -0.016685082 0.01937745 
-		0.032903433 -0.016685082 0.01937745 0.032903433 -0.016685082 0.01937745 0.032903433 
+		-0.016685082 0.01937745 0.032903433 -0.016685082 0.01937753 0.032903343 -0.016685084 
+		0.01937753 0.032903343 -0.016685084 0.01937745 0.032903433 -0.016685082 0.019377708 
+		0.032903552 -0.016685069 0.01937745 0.032903433 -0.016685082 0.01937745 0.032903433 
 		-0.016685082 0.01937745 0.032903433 -0.016685082 0.01937745 0.032903433 -0.016685082 
 		0.01937745 0.032903433 -0.016685082 0.01937745 0.032903433 -0.016685082 0.01937745 
 		0.032903433 -0.016685082 0.01937745 0.032903433 -0.016685082 0.01937745 0.032903433 
@@ -6805,19 +6805,19 @@ createNode mesh -n "Avatar_v1_1Shape" -p "transform1";
 createNode transform -s -n "persp";
 	rename -uid "38383CE7-D046-56C7-59C5-428AD6BC9C98";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.8392741556662191 4.0489683204226612 30.918534618902655 ;
-	setAttr ".r" -type "double3" 3.2616474192577916 3956.1999999913628 7.470849935222679e-17 ;
+	setAttr ".t" -type "double3" 1.24625491542196 12.531708419788208 28.482219117378254 ;
+	setAttr ".r" -type "double3" -16.538352580365935 3961.3999999992698 -9.9422012282345589e-17 ;
 	setAttr ".rp" -type "double3" -1.7763568394002505e-15 0 -3.5527136788005009e-15 ;
 	setAttr ".rpt" -type "double3" 2.1341153050974039e-15 -5.8181404914604855e-17 7.5081961915623034e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "732ADC91-4543-9D47-DC69-76996E166976";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 30.889302280977258;
+	setAttr ".coi" 30.197383172959615;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 1.2045642574844404 5.8064381941184431 0.14707024702622817 ;
+	setAttr ".tp" -type "double3" 0.53898979161310445 3.9358090602141087 -0.45723907968151351 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "top";
